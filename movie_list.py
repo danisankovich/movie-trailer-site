@@ -58,4 +58,5 @@ crazy_stupid_love = movie.Movie("Crazy, Stupid, Love",
 movies = [harry_potter_one, toy_story, fellowship, guardians_of_the_galaxy, empire_strikes_back, crazy_stupid_love]
 
 #this function from fresh tomatoes launches the web page
+#print(movie.Movie.VALID_RATINGS)
 fresh_tomatoes.open_movies_page(movies)

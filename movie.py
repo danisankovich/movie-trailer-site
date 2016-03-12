@@ -4,6 +4,7 @@ import webbrowser
 
 # movie class instantiates a movie with title, storyline, poster image, youtube trailer, release date, rating, and genres
 class Movie():
+    VALID_RATINGS=["G", "PG", "PG-13", "R", "NC-17"] #class variable
     #double underscore indicates special functino/method
     #init takes self as a parameter
     def __init__(self, movie_title, movie_story_line, poster_image, trailer_youtube, release_date, rotten_tomatoes_rating, genre):
